@@ -1,0 +1,26 @@
+  <!-- JQuery -->
+  <script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../../js/mdb.min.js"></script>
+  <script>
+    new WOW().init();
+
+    //Show the modal popup only once
+    $( document ).ready(function() {
+
+       //$crisp.push(["safe", true]);
+
+       //Copyright year
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("copyrightYear").innerHTML = n;
+
+    });
+
+  </script>
+
+
